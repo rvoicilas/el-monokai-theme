@@ -72,9 +72,9 @@
    `(yas/field-highlight-face ((t (:background ,monokai-gray-darker))))))
 
 ;;;###autoload
-(when load-file-name
-  (add-to-list 'custom-theme-load-path
-               (file-name-as-directory (file-name-directory load-file-name))))
+;; (when load-file-name
+;;  (add-to-list 'custom-theme-load-path
+;;               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'monokai)
 
